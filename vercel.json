@@ -12,6 +12,10 @@
             "dest": "/"
         }
     ]
- 
-    
+
+},
+{
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
+  ]
 }
